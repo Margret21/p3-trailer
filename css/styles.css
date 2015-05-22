@@ -2,6 +2,14 @@
 OVERRIDE MEDIA ELEMENT PLAYER STYLING
 *******************/
 
+h1 {
+	width: 50%;
+	margin: 0 auto;
+}
+/*body {
+	background-image: url("../img/tangled.jpg")
+}*/
+
 /* Wrapper container */
 .mejs-container,
 .mejs-overlay {
@@ -12,22 +20,23 @@ OVERRIDE MEDIA ELEMENT PLAYER STYLING
 
 /* [] 1. Change overlayed play button */
 .mejs-378 .mejs-overlay-button {
- 
+
 }
 
 /* [] 2. Control Wrapper Positioning */
-.mejs-378 .mejs-controls {
-
+.mejs-378 .mejs-controls .mejs-pause button{
+ 
 }
 
 /* [] 3. Play Button */
 .mejs-378 .mejs-controls .mejs-play button {
-	
+
 }
 
+
 /* [] 4. Current Time Display */
-.mejs-378 .mejs-controls .mejs-currenttime {
-	
+.mejs-378 .mejs-controls .mejs-currenttime span{
+
 }
 
 /* [] 5. Rail: Current Loaded, To Load, & Background */
@@ -36,11 +45,11 @@ OVERRIDE MEDIA ELEMENT PLAYER STYLING
 }
 
 .mejs-378 .mejs-controls .mejs-time-rail .mejs-time-loaded {
-	background: green;
+	background: #632160;
 }
 
 .mejs-378 .mejs-controls .mejs-time-rail .mejs-time-current {
-	background: red;
+	background: #FFB812;
 }
 
 /* ADD MORE STYLING. MAKE IT YOUR OWN. */
